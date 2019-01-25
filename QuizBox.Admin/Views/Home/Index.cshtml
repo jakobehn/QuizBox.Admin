@@ -1,22 +1,56 @@
 ﻿@{
-    ViewBag.Title = "Home Page";
+    ViewBag.Title = "QuizBox HomePage";
 }
 
-<div class="jumbotron">
-    <h1>QuizBox Admin/h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+<div class="jumbotron quizbox-jumbo">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <h1>QuizBox Administration</h1>
+                <p>Administration for QuizBox</p>
+            </div>
+            <div class="col-md4">
+                <img src="~/content/small-logo.jpg" class="img img-circle">
+            </div>
+        </div>
+    </div>
+    </div>
+    <div>
+        <div class="row">
+            <div class="col-md-6 quizbox-section">
+                <h3>Manage Categories</h3>
+                <p>Edit available quiz categories</p>
+                <div class="form-group">
+                    <div class="list-group">
+                        <div class="list-group-item quizbox-item">
+                            <button class="btn btn-lg btn-success btn-category">Sports</button>
+                        </div>
+                        <div class="list-group-item  quizbox-item">
+                            <button class="btn btn-lg btn-info btn-category">Music</button>
+                        </div>
+                        <div class="list-group-item  quizbox-item">
+                            <button class="btn btn-lg btn-success btn-category">Entertainment</button>
+                        </div>
+                        <div class="list-group-item  quizbox-item">
+                            <button class="btn btn-lg btn-info btn-category">Food</button>
+                        </div>
+                        <div class="list-group-item  quizbox-item">
+                            <button class="btn btn-lg btn-success btn-category">Geek</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 quizbox-section">
+                <h3>Manage Questions</h3>
+                <p>Update your profile and make sure that your contact information is up to date</p>
+                <p>
+                    <button class="btn btn-lg btn-warning btn-category">Manage Questions</button>
+                </p>
+            </div>
+
+        </div>
 </div>
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
-    </div>
+<div class="navbar navbar-fixed-bottom">
 
 </div>

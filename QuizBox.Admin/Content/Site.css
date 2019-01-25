@@ -1,16 +1,25 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background-color: darkblue;
 }
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
+    color:lightblue;
 }
 
 .quizbox-jumbo {
-    padding: 20px !important;
+    padding:20px !important;
+    background-color:white;
+    color:darkblue;
+}
+
+.quizbox-item {
+    background-color:darkblue;
+    border:0px;
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -49,17 +58,16 @@ textarea {
 
 /* centered columns styles */
 .row-centered {
-    text-align: center;
+    text-align:center;
     align-content: center;
 }
-
 .col-centered {
-    display: inline-block;
-    float: none;
+    display:inline-block;
+    float:none;
     /* reset the text-align */
-    text-align: left;
+    text-align:left;
     /* inline-block space fix */
-    margin-right: -4px;
+    margin-right:-4px;
 }
 
 .question {
@@ -94,19 +102,18 @@ textarea {
     border-color: red;
 }
 
-    .highscore .badge {
-        font-size: large;
-    }
-    /* For small screen */
-    .highscore .row:nth-child(even) {
-        background-color: aliceblue;
-        border: 0px;
-    }
-
-    .highscore .row:nth-child(odd) {
-        background-color: white;
-        border: 0px;
-    }
+.highscore .badge {
+    font-size: large;
+}
+/* For small screen */
+.highscore .row:nth-child(even){
+  background-color: aliceblue;
+    border: 0px;
+}
+.highscore .row:nth-child(odd){
+  background-color: white;
+  border: 0px;
+}
 
 .quiz-radio {
     width: 0.8em;
