@@ -22,6 +22,14 @@
     border:0px;
 }
 
+.btn-add {
+    background-color:darkorange;
+    font-size:large;
+    color:white;
+    width:130px;
+    height:40px;
+}
+
 /* Override the default bootstrap behavior where horizontal description lists 
    will truncate terms that are too long to fit in the left column 
 */
