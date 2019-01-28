@@ -20,6 +20,8 @@ namespace QuizBox.Admin.Controllers
 
         public AccountController()
         {
+
+
         }
 
         public AccountController(ApplicationUserManager userManager, ApplicationSignInManager signInManager )
