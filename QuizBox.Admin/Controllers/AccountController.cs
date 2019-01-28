@@ -17,6 +17,8 @@ namespace QuizBox.Admin.Controllers
     {
         private ApplicationSignInManager _signInManager;
         private ApplicationUserManager _userManager;
+        
+
 
         public AccountController()
         {
