@@ -13,6 +13,7 @@ using QuizBox.Admin.Models;
 namespace QuizBox.Admin.Controllers
 {
 
+
     [Authorize]
     public class AccountController : Controller
     {
