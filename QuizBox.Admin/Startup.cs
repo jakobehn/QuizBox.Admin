@@ -1,7 +1,6 @@
 ﻿using Microsoft.Owin;
 using Owin;
 
-
 [assembly: OwinStartupAttribute(typeof(QuizBox.Admin.Startup))]
 namespace QuizBox.Admin
 {
