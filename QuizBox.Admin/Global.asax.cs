@@ -8,6 +8,7 @@ using System.Web.Routing;
 
 namespace QuizBox.Admin
 {
+// Add comment
     public class MvcApplication : System.Web.HttpApplication
     {
         protected void Application_Start()
